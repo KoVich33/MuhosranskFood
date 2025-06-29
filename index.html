@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuhosranskFood Доставка традиционной Мухосранской кухни</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="MuhosranskFood">
+                <span>Muhosransk food</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Доставка традиционной Мухосранской кухни</h1>
+            <p>Познакомтесь с культурой и кухней города Мухосранск</p>
+            <form class="search-form">
+                <input type="text" placeholder="Что будем заказывать?">
+                <input type="text" placeholder="Ваш адрес">
+                <button type="submit">Найти</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Категории -->
+    <section class="categories">
+        <div class="container">
+            <h2>Категории</h2>
+            <div class="category-list">
+                <div class="category-item">
+                    <img src="img/first-dishes-icon.png" alt="Первые блюда">
+                    <span>Первые блюда</span>
+                </div>
+                <div class="category-item">
+                    <img src="img/snacks-icon.png" alt="Закуски">
+                    <span>Закуски</span>
+                </div>
+                <div class="category-item">
+                    <img src="img/salad-icon.png" alt="Салаты">
+                    <span>Салаты</span>
+                </div>
+                <div class="category-item">
+                    <img src="img/dessert-icon.png" alt="Десерты">
+                    <span>Десерты</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярные блюда -->
+    <section class="popular-dishes" id="menu">
+        <div class="container">
+            <h2>Популярные блюда</h2>
+            <div class="dish-list">
+                <!-- Блюда будут добавляться динамически через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Корзина -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <div class="cart-header">
+                <h3>Ваш заказ</h3>
+                <button class="close-cart"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-items">
+                <!-- Товары будут добавляться динамически -->
+            </div>
+            <div class="cart-total">
+                <span>Итого:</span>
+                <span class="total-price">0 ₽</span>
+            </div>
+            <button class="checkout-btn">Оформить заказ</button>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h4>MuhosranskFood</h4>
+                <p>Доставка традиционной Мухосранской кухни</p>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p><i class="fas fa-phone"></i> +7 (123) 456-78-90</p>
+                <p><i class="fas fa-envelope"></i> info@muhosranskfood.ru</p>
+            </div>
+            <div class="footer-section">
+                <h4>Мы в соцсетях</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2016-2025 MuhosranskFood®™. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
