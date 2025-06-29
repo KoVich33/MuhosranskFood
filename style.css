@@ -1,11 +1,11 @@
 /* Базовые стили */
 :root {
-    --primary-color: #ff6b6b;
-    --secondary-color: #ff8e8e;
-    --dark-color: #333;
-    --light-color: #f8f9fa;
-    --gray-color: #6c757d;
-    --white-color: #fff;
+    --primary-color: #5990b4;
+    --secondary-color: #2e4250;
+    --dark-color: #b0c4cf;
+    --light-color: hsl(202, 56%, 13%);
+    --gray-color: #8cb8d4;
+    --white-color: #4b748f;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,7 +100,7 @@ header .container {
     top: -8px;
     right: -8px;
     background-color: var(--primary-color);
-    color: var(--white-color);
+    color: #031622;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -284,7 +284,7 @@ header .container {
 
 .add-to-cart {
     background-color: var(--primary-color);
-    color: var(--white-color);
+    color: #031622;
     border: none;
     border-radius: 5px;
     padding: 8px 15px;
@@ -420,12 +420,12 @@ footer .container {
 .footer-section h4 {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: var(--white-color);
+    color: #1d3f49;
 }
 
 .footer-section p {
     margin-bottom: 10px;
-    color: #ccc;
+    color: #487480;
 }
 
 .social-links {
@@ -434,20 +434,20 @@ footer .container {
 }
 
 .social-links a {
-    color: var(--white-color);
+    color: #4e919c;
     font-size: 1.5rem;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: var(--primary-color);
+    color: #4e919c;
 }
 
 .copyright {
     text-align: center;
     padding: 20px 0;
     background-color: rgba(0, 0, 0, 0.2);
-    color: #ccc;
+    color: #364146;
     font-size: 0.9rem;
 }
 
