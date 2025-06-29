@@ -360,7 +360,7 @@ header .container {
 }
 
 .cart-item-price {
-    color: var(--primary-color);
+    color: #92c4ec;
     font-weight: bold;
 }
 
